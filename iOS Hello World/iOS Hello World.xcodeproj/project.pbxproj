@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C391DC0244E346400888226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DBF244E346400888226 /* AppDelegate.swift */; };
-		7C391DC2244E346400888226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DC1244E346400888226 /* SceneDelegate.swift */; };
-		7C391DC4244E346400888226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DC3244E346400888226 /* ViewController.swift */; };
+		7C391DE4244E44DE00888226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DE3244E44DE00888226 /* AppDelegate.swift */; };
+		7C391DE6244E44DE00888226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DE5244E44DE00888226 /* SceneDelegate.swift */; };
+		7C391DE8244E44DE00888226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DE7244E44DE00888226 /* ViewController.swift */; };
+		7C391DEB244E44DE00888226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C391DE9244E44DE00888226 /* Main.storyboard */; };
+		7C391DED244E44E000888226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C391DEC244E44E000888226 /* Assets.xcassets */; };
+		7C391DF0244E44E000888226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C391DEE244E44E000888226 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C391DBC244E346400888226 /* iOS Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C391DBF244E346400888226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C391DC1244E346400888226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C391DC3244E346400888226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C391DC6244E346400888226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C391DC8244E346500888226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C391DCB244E346500888226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C391DCD244E346500888226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C391DE0244E44DE00888226 /* iOS Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C391DE3244E44DE00888226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C391DE5244E44DE00888226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C391DE7244E44DE00888226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C391DEA244E44DE00888226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C391DEC244E44E000888226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C391DEF244E44E000888226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C391DF1244E44E000888226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C391DB9244E346400888226 /* Frameworks */ = {
+		7C391DDD244E44DE00888226 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C391DB3244E346400888226 = {
+		7C391DD7244E44DE00888226 = {
 			isa = PBXGroup;
 			children = (
-				7C391DBE244E346400888226 /* iOS Starter */,
-				7C391DBD244E346400888226 /* Products */,
+				7C391DE2244E44DE00888226 /* iOS Hello World */,
+				7C391DE1244E44DE00888226 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7C391DBD244E346400888226 /* Products */ = {
+		7C391DE1244E44DE00888226 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C391DBC244E346400888226 /* iOS Starter.app */,
+				7C391DE0244E44DE00888226 /* iOS Hello World.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C391DBE244E346400888226 /* iOS Starter */ = {
+		7C391DE2244E44DE00888226 /* iOS Hello World */ = {
 			isa = PBXGroup;
 			children = (
-				7C391DBF244E346400888226 /* AppDelegate.swift */,
-				7C391DC1244E346400888226 /* SceneDelegate.swift */,
-				7C391DC3244E346400888226 /* ViewController.swift */,
-				7C391DC5244E346400888226 /* Main.storyboard */,
-				7C391DC8244E346500888226 /* Assets.xcassets */,
-				7C391DCA244E346500888226 /* LaunchScreen.storyboard */,
-				7C391DCD244E346500888226 /* Info.plist */,
+				7C391DE3244E44DE00888226 /* AppDelegate.swift */,
+				7C391DE5244E44DE00888226 /* SceneDelegate.swift */,
+				7C391DE7244E44DE00888226 /* ViewController.swift */,
+				7C391DE9244E44DE00888226 /* Main.storyboard */,
+				7C391DEC244E44E000888226 /* Assets.xcassets */,
+				7C391DEE244E44E000888226 /* LaunchScreen.storyboard */,
+				7C391DF1244E44E000888226 /* Info.plist */,
 			);
-			path = "iOS Starter";
+			path = "iOS Hello World";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C391DBB244E346400888226 /* iOS Starter */ = {
+		7C391DDF244E44DE00888226 /* iOS Hello World */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C391DD0244E346500888226 /* Build configuration list for PBXNativeTarget "iOS Starter" */;
+			buildConfigurationList = 7C391DF4244E44E000888226 /* Build configuration list for PBXNativeTarget "iOS Hello World" */;
 			buildPhases = (
-				7C391DB8244E346400888226 /* Sources */,
-				7C391DB9244E346400888226 /* Frameworks */,
-				7C391DBA244E346400888226 /* Resources */,
+				7C391DDC244E44DE00888226 /* Sources */,
+				7C391DDD244E44DE00888226 /* Frameworks */,
+				7C391DDE244E44DE00888226 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "iOS Starter";
-			productName = "iOS Starter";
-			productReference = 7C391DBC244E346400888226 /* iOS Starter.app */;
+			name = "iOS Hello World";
+			productName = "iOS Hello World";
+			productReference = 7C391DE0244E44DE00888226 /* iOS Hello World.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C391DB4244E346400888226 /* Project object */ = {
+		7C391DD8244E44DE00888226 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Rodrigo Augusto Gontijo";
 				TargetAttributes = {
-					7C391DBB244E346400888226 = {
+					7C391DDF244E44DE00888226 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 7C391DB7244E346400888226 /* Build configuration list for PBXProject "iOS Starter" */;
+			buildConfigurationList = 7C391DDB244E44DE00888226 /* Build configuration list for PBXProject "iOS Hello World" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,52 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C391DB3244E346400888226;
-			productRefGroup = 7C391DBD244E346400888226 /* Products */;
+			mainGroup = 7C391DD7244E44DE00888226;
+			productRefGroup = 7C391DE1244E44DE00888226 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C391DBB244E346400888226 /* iOS Starter */,
+				7C391DDF244E44DE00888226 /* iOS Hello World */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C391DBA244E346400888226 /* Resources */ = {
+		7C391DDE244E44DE00888226 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C391DF0244E44E000888226 /* LaunchScreen.storyboard in Resources */,
+				7C391DED244E44E000888226 /* Assets.xcassets in Resources */,
+				7C391DEB244E44DE00888226 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C391DB8244E346400888226 /* Sources */ = {
+		7C391DDC244E44DE00888226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C391DC4244E346400888226 /* ViewController.swift in Sources */,
-				7C391DC0244E346400888226 /* AppDelegate.swift in Sources */,
-				7C391DC2244E346400888226 /* SceneDelegate.swift in Sources */,
+				7C391DE8244E44DE00888226 /* ViewController.swift in Sources */,
+				7C391DE4244E44DE00888226 /* AppDelegate.swift in Sources */,
+				7C391DE6244E44DE00888226 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C391DC5244E346400888226 /* Main.storyboard */ = {
+		7C391DE9244E44DE00888226 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C391DC6244E346400888226 /* Base */,
+				7C391DEA244E44DE00888226 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7C391DCA244E346500888226 /* LaunchScreen.storyboard */ = {
+		7C391DEE244E44E000888226 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C391DCB244E346500888226 /* Base */,
+				7C391DEF244E44E000888226 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -160,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7C391DCE244E346500888226 /* Debug */ = {
+		7C391DF2244E44E000888226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		7C391DCF244E346500888226 /* Release */ = {
+		7C391DF3244E44E000888226 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,36 +280,36 @@
 			};
 			name = Release;
 		};
-		7C391DD1244E346500888226 /* Debug */ = {
+		7C391DF5244E44E000888226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBAX6C8TFP;
-				INFOPLIST_FILE = "iOS Starter/Info.plist";
+				INFOPLIST_FILE = "iOS Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.gontijo.iOS-Starter";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.gontijo.iOS-Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7C391DD2244E346500888226 /* Release */ = {
+		7C391DF6244E44E000888226 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBAX6C8TFP;
-				INFOPLIST_FILE = "iOS Starter/Info.plist";
+				INFOPLIST_FILE = "iOS Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.gontijo.iOS-Starter";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigo.gontijo.iOS-Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C391DB7244E346400888226 /* Build configuration list for PBXProject "iOS Starter" */ = {
+		7C391DDB244E44DE00888226 /* Build configuration list for PBXProject "iOS Hello World" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C391DCE244E346500888226 /* Debug */,
-				7C391DCF244E346500888226 /* Release */,
+				7C391DF2244E44E000888226 /* Debug */,
+				7C391DF3244E44E000888226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C391DD0244E346500888226 /* Build configuration list for PBXNativeTarget "iOS Starter" */ = {
+		7C391DF4244E44E000888226 /* Build configuration list for PBXNativeTarget "iOS Hello World" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C391DD1244E346500888226 /* Debug */,
-				7C391DD2244E346500888226 /* Release */,
+				7C391DF5244E44E000888226 /* Debug */,
+				7C391DF6244E44E000888226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C391DB4244E346400888226 /* Project object */;
+	rootObject = 7C391DD8244E44DE00888226 /* Project object */;
 }

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  iOS Starter
+//  iOS Hello World
 //
 //  Created by Rodrigo Augusto Gontijo on 20/04/2020.
 //  Copyright © 2020 Rodrigo Augusto Gontijo. All rights reserved.
