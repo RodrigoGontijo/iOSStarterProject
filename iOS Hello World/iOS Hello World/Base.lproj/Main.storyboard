@@ -42,6 +42,16 @@
                                 <rect key="frame" x="20" y="223" width="374" height="378"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="defaultCell" id="E90-pW-sXM">
+                                        <rect key="frame" x="20" y="55.5" width="334" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E90-pW-sXM" id="fDL-5I-paA">
+                                            <rect key="frame" x="0.0" y="0.0" width="334" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="HYF-Bf-Fb4"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="kyJ-DC-S69"/>
