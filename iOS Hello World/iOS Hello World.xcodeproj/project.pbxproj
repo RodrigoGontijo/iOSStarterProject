@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2E4356246EFF4C00B509FF /* DetailsTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2E4355246EFF4C00B509FF /* DetailsTestViewController.swift */; };
 		7C391DE4244E44DE00888226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DE3244E44DE00888226 /* AppDelegate.swift */; };
 		7C391DE6244E44DE00888226 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DE5244E44DE00888226 /* SceneDelegate.swift */; };
 		7C391DE8244E44DE00888226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C391DE7244E44DE00888226 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C2E4355246EFF4C00B509FF /* DetailsTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTestViewController.swift; sourceTree = "<group>"; };
 		7C391DE0244E44DE00888226 /* iOS Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C391DE3244E44DE00888226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C391DE5244E44DE00888226 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				7C391DE5244E44DE00888226 /* SceneDelegate.swift */,
 				7C391DE7244E44DE00888226 /* ViewController.swift */,
 				7C391DE9244E44DE00888226 /* Main.storyboard */,
+				7C2E4355246EFF4C00B509FF /* DetailsTestViewController.swift */,
 				7C391DEC244E44E000888226 /* Assets.xcassets */,
 				7C391DEE244E44E000888226 /* LaunchScreen.storyboard */,
 				7C391DF1244E44E000888226 /* Info.plist */,
@@ -141,6 +144,7 @@
 				7C391DE8244E44DE00888226 /* ViewController.swift in Sources */,
 				7C391DE4244E44DE00888226 /* AppDelegate.swift in Sources */,
 				7C391DE6244E44DE00888226 /* SceneDelegate.swift in Sources */,
+				7C2E4356246EFF4C00B509FF /* DetailsTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

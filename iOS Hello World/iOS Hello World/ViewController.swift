@@ -37,6 +37,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.tapFunction))
          multiLineLabel.isUserInteractionEnabled = true
          multiLineLabel.addGestureRecognizer(tap)
+        
+        self.title = "Alarm Application"
     }
     
     
